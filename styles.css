@@ -1,0 +1,67 @@
+body {
+    background-image: url(https://wallpapers.com/images/featured-full/pink-rose-iphone-x3jyvgmgdmdagiyf.jpg);
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.wrap {
+    width: 90%;
+    background-color: #ffe0e9;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 400px;
+}
+
+p {
+    font-family: Tahoma;
+}
+
+h1 {
+    margin: 0.5em auto;
+    text-align: center;
+}
+
+.description {
+    text-align: center;
+    font-style: italic;
+    color: grey;
+}
+
+input, textarea, select {
+    margin: 8px 0 0 0;
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+    border-bottom: 2px solid #ff007f;
+    padding: 1.5rem 0;
+}
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+.inline {
+    width: unset;
+    vertical-align: middle;
+    margin: 0 1em 0 0;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #7fffd4;
+    border-color: #00cca7;
+    min-width: 300px;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+    display: block;
+}
