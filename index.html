@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <div class="wrap">
+    <meta charset="UTF-8">
+    <fieldset>
+    <h1 id="title">Colorectal Cancer Survey</h1>
+    <p class="description" id="description"><i>Thank you for participating! It's important for us to make people aware of health issues</i></p>
+    </fieldset>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+    <form id="survey-form">
+    <fieldset>
+    <label for="name" id="name-label">Name <input placeholder="Enter your name" id="name" type="text"/></label>
+    <label for="id" id="email-label">Email <input placeholder="Enter your email" id="email"/></label>
+    <label for="number" id="number-label"> Age <input placeholder="Enter your age" min="15" max="120" id="number"/></label>
+    </fieldset>
+    <fieldset>
+    <label>When do you see a gynaecologist?
+    <select id="dropdown">
+    <option>(Select one)</option> 
+    <option>At least twice a year, even when having no symptoms</option> 
+    <option>Once a year, but I don't do medical exams </option> 
+    <option>Only when I have symptoms</option> 
+    <option>I I've never been to the gynaecologist</option>          
+        </select>
+    </label>
+    </fieldset>
+
+    <fieldset>
+    <label>
+        <p>Have you been vaccinated against HPV?</p>
+        <input class="inline" name="vaccine-type" type="radio"/> Yes, I've got both doses.
+    </label>
+    <label>
+        <input class="inline" name="vaccine-type" type="radio"/> Yes, I've got one dose.
+    </label>
+    <label>
+        <input class="inline" name="vaccine-type" type="radio"/> No, I haven't.
+    </label> 
+    </fieldset>
+
+    <fieldset>
+    <label><p>Which of theses symptoms of Colorectal Cancer do you know?</p>
+        <input class="inline"value="" type="checkbox"/> Blood in or on your stool.
+        </label>
+        <label>
+        <input class="inline" value="2" type="checkbox"/> Diarrhea.
+        </label>
+        <label>
+        <input class="inline" value="3" type="checkbox"/> Abdominal pain.
+        </label>
+        <label>
+        <input class="inline" value="4" type="checkbox"/> Weight loss.
+        </label>
+        <label>
+        <input class="inline" value="5" type="checkbox"/> Rectal discomfort.
+    </label>
+    <label>
+        <input class="inline" value="6" type="checkbox"/> Stools that are narrower than usual.
+    </label>
+    <label>
+        <input class="inline" value="7" type="checkbox"/> Painful intercourse.
+    </label>
+    <label>
+        <input class="inline" value="8" type="checkbox"/> None of them.
+    </label>
+    </fieldset>
+
+    
+    <label><p>If you'd like to, you can tell us a bit about your experience seeing a gynaecologist:</p>
+        <textarea placeholder="I have always felt comfortable.../ I do not feel comfortable...."></textarea>
+        </label>
+        <input rows="3" cols="30" type="submit" id="submit" value="Submit" />
+    
+    </form>
+    </div>
+</body>
+</html>
